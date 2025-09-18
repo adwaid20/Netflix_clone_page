@@ -1,0 +1,110 @@
+.header{
+    background:linear-gradient(rgba(0, 0, 0,0.7),rgba(10, 9, 9,0.7)),url(login-bg.jpg);
+   
+  
+   background-position: center;
+    background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height:auto;
+ min-height: 700px;
+}
+
+.navbar-custom {
+  background:linear-gradient(rgba(0, 0, 0,1),rgb(0, 0, 0,0.1)) !important;
+  justify-content: space-between;
+}
+
+.form-select{
+    opacity: 0.3 !important;
+    height:32px;
+    width: 62px;
+    width: auto;
+}
+
+
+
+#writing {  
+  color: white;    
+}
+.form-control{
+  background-color:rgba(44, 42, 42, 0.8);
+  height: 60px;
+  padding: 0 25px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  color: #fff;
+  max-width: 500px !important;
+
+  font-size: 1rem;
+}
+
+#emailb{
+  display: flex;
+  flex-direction:row ;
+  gap: 8px;
+  
+}
+
+#emailb .btn{
+font-weight: bold;
+font-size: large;
+}
+
+#emailb .btn:hover {
+  background-color: #e50914;
+  cursor: pointer;
+}
+
+.header2{
+    background-color: black;
+ background-size: cover;
+ width: 100%;
+ height: 100vh;
+}
+
+
+
+.img{
+  display: flex;
+  
+}
+
+
+
+.card{
+background: linear-gradient(135deg, #1a1a2e 0%, #16213e 40%, #2d1b69 70%, #4a1a5c 85%,#6d1b7b 100%);
+color: #fff;
+ height: 100%;           
+  display: flex;  
+  width: 100%;        
+  flex-direction: column; 
+}
+
+
+.carousel{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+
+.carousel img{
+  border-radius: 15px;
+}
+
+.accordion-button,
+.accordion-item {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+body{
+  background-color: black;
+}
+
+.col{
+  display: flex;
+  flex-direction: row;
+}
